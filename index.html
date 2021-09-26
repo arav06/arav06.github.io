@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arav Budhiraja</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="images/favicon.png" rel="icon">
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Monda:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+<script src="js/main2.js"></script>
+<script>
+
+  $( document ).ready( function() {
+
+    var a = [ 
+    
+{ image: 'images/pentester.jpg', width: '50', height: '50', url: '#skills', target: '_top' },
+{ image: 'images/bash.png', width: '50', height: '50' , url: '#skills', target: '_top'},
+{ image: 'images/pwsh.png', width: '50', height: '50' , url: '#skills', target: '_top'},
+{ image: 'images/cpp.png', width: '50', height: '50', url: '#skills' , target: '_top'},
+{ image: 'images/css.svg', width: '50', height: '50', url: '#skills' , target: '_top'},
+{ image: 'images/aws.svg', width: '50', height: '50', url: '#skills' , target: '_top'},
+{ image: 'images/docker.svg', width: '50', height: '50', url: '#skills' , target: '_top'},
+{ image: 'images/html.svg', width: '50', height: '50', url: '#skills' , target: '_top'},
+{ image: 'images/java.svg', width: '50', height: '50', url: '#skills', target: '_top'},
+{ image: 'images/linux.svg', width: '50', height: '50' , url: '#skills', target: '_top'},
+{ image: 'images/python.svg', width: '50', height: '50' , url: '#skills', target: '_top'},
+        
+];
+
+        var settings = {
+
+            entries:a,
+            width: 700,
+            height: 480,
+            radius: '80%',
+            radiusMin: 75,
+            bgDraw: true,
+            bgColor: '#0A0A0A',
+            opacityOver: 2,
+            opacityOut: 0.07,
+            opacitySpeed:5,
+            fov: 800,
+            speed:1.7,
+            fontFamily: 'Roboto Slab',
+            fontSize: '15',
+            fontColor: '#fff',
+            fontWeight: 'bold',
+            fontStyle: 'normal',
+            fontStretch: 'normal',
+            fontToUpperCase:false,
+
+        };
+        $( '#skillsdiv' ).svg3DTagCloud( settings );
+
+} );
+
+
+</script>
+
+</head>
+<body>
+
+  <script src="js/main.js"></script>
+ 
+
+<div class="flex bg-white h-18 md:h-20 sm:h-18 justify-evenly" id="navbar">
+  <a href ="https://arav06.github.io" class="text-xl text-black-500 hover:text-yellow-900 sm:text-sm " id="navtext" >About Me</a>
+  <a href ="projects" class="text-xl text-black-500 hover:text-yellow-900 sm:text-sm " id="navtext" >Projects</a>
+  <a href ="journey" class="text-xl text-black-500 hover:text-yellow-900 sm:text-sm " id="navtext" >My Journey</a>
+  <a href ="contact" class="text-xl text-black-500 hover:text-yellow-900 sm:text-sm " id="navtext" >Contact</a>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div id="about"></div>
+<br>
+<section class=" body-font">
+  <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+    <!--<img class=" mb-10 object-cover object-center rounded" src="pfp.png">-->
+    <div class="text-center lg:w-2/3 w-full" id="aboutme">
+      <h1 class="title-font sm:text-4xl text-3xl mb-2 font-medium text-black">Heyyy!</h1>
+      <p class="sm:text-2xl text-2xl mb-4 font-medium text-black">Hello! I'm Arav Budhiraja, a 15-year-old from India studying in grade 10. Ever since the pandemic started in 2020, I have been gaining knowledge about IT topics such as pentesting, networking, web development, programming, etc. One day, I was browsing through my youtube recommendations and found a video of a 12-year-old ethical hacker. That video motivated me to get into IT. I learned basic pentesting and went on to learn web development, networking and python. Now, I'm expanding my python and pentesting knowledge and also learning C++ and cloud computing.</p>
+    </div>
+  </div>
+</section>
+
+
+<br>
+<br>
+<br>
+
+<div id="skills"></div>
+<h2 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white text-center font-sans" style="font-family: 'Lobster', " id="hdr"><u><b>Skills</b></u></h2>
+
+<br>
+<br>
+
+
+
+
+<div class="max-w-md mx-auto bg-white hover:bg-gray-300 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+  <div class="md:flex">
+    <div class="md:flex-shrink-0" >
+      <div id="skillsdiv"></div>
+      </div>
+      </div>
+      </div>
+
+<br>
+<br>
+<br>
+
+<br>
+
+<br>
+ 
+
+  <footer class="footer relative pt-1 border-b-2 ">
+    <div class="container mx-auto px-6">
+
+        <div class="sm:flex sm:mt-8 justify-center">
+            <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row  justify-center">
+                <div class="flex flex-col justify-center" id="footerdiv">
+                 
+                    <span class="my-2"><a href="https://arav06.github.io" class="text-white text-xl " id="ft">About Me</a></span>
+                    <span class="my-2"><a href="projects" class="text-white text-xl  " id="ft">Projects</a></span>
+                    <span class="my-2"><a href="journey" class="text-white text-xl  " id="ft">My Journey</a></span>
+                    <span class="my-2"><a href="contact" class="text-white text-xl  " id="ft">Contact</a></span>
+
+                    <br>
+                    <br>
+                </div></div>
+</div>
+</footer>
+
+
