@@ -1,0 +1,99 @@
+body{
+    background-image: url("../images/background3.jpg");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 100%; 
+  background-position: center center;
+  background-attachment: fixed;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+
+
+
+    }
+
+#linkedin{
+    width:80px;
+}
+
+    #navbar {
+      overflow: hidden;
+      background-color: rgba(3, 3, 3, 0.473);
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    
+    #navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    #navbar a:hover {
+      color: lightgray;
+      
+    }
+    
+    #linkedin:hover{
+        
+         opacity: 0.75;
+         filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
+         filter: blur(1px);
+         filter: saturate(200%);
+
+     }
+
+    #image:hover{
+        
+         opacity: 0.75;
+         filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
+         filter: blur(1px);
+         filter: saturate(700%);
+}
+     #navtext {
+      transition: 0.5s;
+  }
+ #navtext:hover {
+      color:#fff;
+      text-shadow: 0 0 5px whitesmoke, 
+               0 0 10px #fff,  
+               0 0 20px whitesmoke,  
+               0 0 30px #fff,  
+               0 0 40px whitesmoke,  
+               0 0 55px #fff,  
+               0 0 70px whitesmoke; 
+  }
+  footer{
+    background-color: rgba(3, 3, 3, 0.473);
+    
+  }
+  #ft{
+    color:#fff;
+  }
+  #footerdiv{
+          transition: 0.5s;
+      }
+      #ft:hover {
+          color:#fff;
+          text-shadow: 0 0 5px whitesmoke, 
+                   0 0 10px #fff,  
+                   0 0 20px whitesmoke,  
+                   0 0 30px #fff,  
+                   0 0 40px whitesmoke,  
+                   0 0 55px #fff,  
+                   0 0 70px whitesmoke; 
+      }
+      #footerdiv span:hover {
+          color: lightgray;
+          
+        }
