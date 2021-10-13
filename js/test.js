@@ -1,1 +1,1 @@
-alert("Reading from my website!");
+alert("Loaded from my website!");
