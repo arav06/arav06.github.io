@@ -1,1 +1,1 @@
-alert("Loaded from my website!");
+alert("This script was loaded from "+document.domain+" !");
